@@ -1,0 +1,86 @@
+footer p {
+  margin: 0 0 0 0;
+  padding: 5px 0 5px 0;
+  background: #9e9e9e;
+}
+.fondogradient {
+  background: linear-gradient(45deg, #030e29, #004d40, #030e29);
+  color: #e3f2fd;
+  background-size: 400% 400%;
+  position: relative;
+  animation: mover 10s ease infinite;
+  margin: 0;
+}
+.yo {
+  width: 60%;
+  border-radius: 50%;
+  border: solid 1px;
+  margin-bottom: 20px;
+}
+.margininfo {
+  margin-top: 50px;
+}
+.fondo {
+  background: #030e29;
+  color: #e3f2fd;
+  border-radius: 3px;
+  border: solid 1px;
+  opacity: 0.7;
+  font-family: Helvetica;
+  padding: 40px 15px 40px 15px;
+}
+.centradoH {
+  text-align: center;
+}
+.conocimientos {
+  margin-top: 20px;
+}
+.iconos {
+  font-size: 150px;
+  padding: 25px;
+  animation: iconos infinite 4s linear;
+}
+.logoproyecto {
+  width: 150px;
+}
+.reactAnim {
+  font-size: 150px;
+  padding: 25px;
+  animation: App-logo-spin infinite 10s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes iconos {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes mover {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

@@ -1,0 +1,23 @@
+.pic-artist {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.top50 {
+  margin-top: 50px;
+}
+
+.margenes50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body {
+  color: #555;
+}
+.boton{
+  position: relative;
+  width: 120px;
+  float: left;
+  border-radius: 2px;
+  border-color: #D32F2F;
+}
